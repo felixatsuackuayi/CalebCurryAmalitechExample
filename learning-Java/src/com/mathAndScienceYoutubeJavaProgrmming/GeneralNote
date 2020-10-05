@@ -1,0 +1,203 @@
+Section 02:
+Java is a cross platform language.Meaning it can be run on all forms of operating Devices (Windows,Ios,Linux,etc)
+
+Java programmer is opened to a box of opportunities.
+
+1.When we write a code we save it in  .java extension
+- We compile the code by  executing with .class file (called byte code) which is machine readable
+-JVM-Java Virtual Machine is a software on all forms of OS which allows you to run your progrmme
+-The .class file is what is runned by the
+
+Java Code (java File)-> Java Compiler -> Java Bytecode (class file)->JVM -> PC to display output
+
+Java Code(Java File
+------------------
+This is you setting your computer and typing your java code.Whatever you want your code to do and save it as (.java) file
+
+Java Compiler
+------------
+This is a programme that looks at your file and crunches/scan through the file,and the outpput is what we
+call the
+
+Java Bytecode
+-------------
+this is the (.class file). This can run by itself but has to run throught the JVMwhich reds
+through your code line-by-line
+
+Difference Between C-CODE & JAVA
+------------------------------
+When you write a C-Code and run it through a compiler it gives you a (.exe) file
+this file will run independently on each OS.
+
+The disdvantange with C-CODE is you need to compile them for every single OS system you want to run on.
+C++ Code (.cpp file)-> C++ Compiler-> Executable Code (.exe file)->Laptop
+
+ JAVA METHOD:
+ .A Method is called a "Function" in C++
+ . Same things as a Subroutine
+ . It is a block of code designed to Perform a Task
+ .Example: A Method to calculate the average of two numbers
+ -Pass2 numbers to the method
+ -The Method adds the numbers and divides result by 2
+ -The Method returns the answer to the part of the code that called it.
+
+ B. Java programs start executingg with the main Method
+ C.Once the main method is done executing, the program ends
+ D.Other methods can be called from MAIN,Such as averaging two numbers, etc
+
+ "Classes" in Java
+ -A "Class" is a blueprint from which other objects are created
+ -Example: Create a "Car Class" in the Code
+ -Attributes of Size,wheel size,color,top speed,ll defined in the class
+  . Car 1 is 8 feet long, 18 inch wheels, blue,top speed of 75 mph
+  .  Car 2 is 8.5 feet long, 19 inch wheels, red,top speed of q00mph
+  . Car 3 is 7 feet long, 15 inch wheels, green, top speed of 50mph
+
+HOW TO RUN JAVA ON COMMAND PROMPT: EXAMPLE
+----------------------------------------------
+
+fl@DESKTOP-HPMFSQB MINGW64 ~
+$ java
+Usage: java [options] <mainclass> [args...]
+           (to execute a class)
+   or  java [options] -jar <jarfile> [args...]
+           (to execute a jar file)
+   or  java [options] -m <module>[/<mainclass>] [args...]
+       java [options] --module <module>[/<mainclass>] [args...]
+           (to execute the main class in a module)
+   or  java [options] <sourcefile> [args]
+           (to execute a single source-file program)
+
+ Arguments following the main class, source file, -jar <jarfile>,
+ -m or --module <module>/<mainclass> are passed as the arguments to
+ main class.
+
+ where options include:
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+    --class-path <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -p <module path>
+    --module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules.
+    --upgrade-module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules that replace upgradeable
+                  modules in the runtime image
+    --add-modules <module name>[,<module name>...]
+                  root modules to resolve in addition to the initial module.
+                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+                  ALL-MODULE-PATH.
+    --list-modules
+                  list observable modules and exit
+    -d <module name>
+    --describe-module <module name>
+                  describe a module and exit
+    --dry-run     create VM and load main class but do not execute main method.
+                  The --dry-run option may be useful for validating the
+                  command-line options such as the module system configuration.
+    --validate-modules
+                  validate all modules and exit
+                  The --validate-modules option may be useful for finding
+                  conflicts and other errors with modules on the module path.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|module|gc|jni]
+                  enable verbose output for the given subsystem
+    -version      print product version to the error stream and exit
+    --version     print product version to the output stream and exit
+    -showversion  print product version to the error stream and continue
+    --show-version
+                  print product version to the output stream and continue
+    --show-module-resolution
+                  show module resolution output during startup
+    -? -h -help
+                  print this help message to the error stream
+    --help        print this help message to the output stream
+    -X            print help on extra options to the error stream
+    --help-extra  print help on extra options to the output stream
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:jdwp
+                  see also -agentlib:jdwp=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+                  HiDPI scaled images are automatically supported and used
+                  if available. The unscaled image filename, e.g. image.ext,
+                  should always be passed as the argument to the -splash option.
+                  The most appropriate scaled image provided will be picked up
+                  automatically.
+                  See the SplashScreen API documentation for more information
+    @argument files
+                  one or more argument files containing options
+    -disable-@files
+                  prevent further argument file expansion
+    --enable-preview
+                  allow classes to depend on preview features of this release
+To specify an argument for a long option, you can use --<name>=<value> or
+--<name> <value>.
+
+
+fl@DESKTOP-HPMFSQB MINGW64 ~
+$ javac --version
+javac 14.0.2
+
+fl@DESKTOP-HPMFSQB MINGW64 ~
+$ java --version
+java 14.0.2 2020-07-14
+Java(TM) SE Runtime Environment (build 14.0.2+12-46)
+Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
+
+fl@DESKTOP-HPMFSQB MINGW64 ~
+$ cd
+
+fl@DESKTOP-HPMFSQB MINGW64 ~
+$ cd Desktop/
+
+fl@DESKTOP-HPMFSQB MINGW64 ~/Desktop
+$ ls
+'~$abilityTest_Quiz.doc'
+'~$AllEven_Method(Feliix Atsu Kofi Ackuayi).docx'
+'~$DULE ASSESMENT.docx'
+'~$lix_Ackuayi_CoverLetter.docx'
+'~$ry_Programming_zeroOutMethod (Felix Atsu Kofi Ackuayi).docx'
+'~$Thesis.docx'
+'~$va Assessment -SOLUTION PROVIDED.docx'
+'Arry_Programming_zeroOutMethod (Felix Atsu Kofi Ackuayi).docx'
+'Arry_Programming_zeroOutMethod (Felix Atsu Kofi Ackuayi).pdf'
+'Desktop 10-01-2020'/
+ desktop.ini
+'isAllEven_Method(Feliix Atsu Kofi Ackuayi).docx'
+'isAllEven_Method(Feliix Atsu Kofi Ackuayi).pdf'
+ Salifu.PNG
+ salifu3.PNG
+'Science and Math (JavaTrails)'/
+
+fl@DESKTOP-HPMFSQB MINGW64 ~/Desktop
+$ cd Science\ and\ Math\ \(JavaTrails\)/
+
+fl@DESKTOP-HPMFSQB MINGW64 ~/Desktop/Science and Math (JavaTrails)
+$ javac FirstExample.java
+
+fl@DESKTOP-HPMFSQB MINGW64 ~/Desktop/Science and Math (JavaTrails)
+$ java FirstExample
+Sum is 110
+
+fl@DESKTOP-HPMFSQB MINGW64 ~/Desktop/Science and Math (JavaTrails)
+$
