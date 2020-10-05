@@ -1,0 +1,23 @@
+Method name Description
+Math.abs(value) - absolute value
+Math.ceil(value)  - rounds up
+Math.floor(value) - rounds down
+Math.log10(value)  - logarithm, base 10
+Math.max(value1, value2) - larger of two values
+Math.min(value1, value2) - smaller of two values
+Math.pow(base, exp) b - ase to the exp power
+Math.random() - random double between 0 and 1
+Math.round(value)  - nearest whole number
+Math.sqrt(value) square root
+Math.sin(value)
+Math.cos(value)
+Math.tan(value)
+sine/cosine/tangent of
+an angle in radians
+Math.toDegrees(value)
+Math.toRadians(value)
+convert degrees to
+radians and back
+Constant Description
+Math.E 2.7182818...
+Math.PI 3

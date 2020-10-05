@@ -1,0 +1,225 @@
+Microsoft Windows [Version 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\fl\IdeaProjects\learning-Java>javac --version
+javac 14.0.2
+
+C:\Users\fl\IdeaProjects\learning-Java>cd sc
+The system cannot find the path specified.
+
+C:\Users\fl\IdeaProjects\learning-Java>cd src
+
+C:\Users\fl\IdeaProjects\learning-Java\src>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\fl\IdeaProjects\learning-Java\src>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src
+
+09/20/2020  01:55 PM    <DIR>          .
+09/20/2020  01:55 PM    <DIR>          ..
+09/20/2020  01:55 PM    <DIR>          com
+               0 File(s)              0 bytes
+               3 Dir(s)  181,234,851,840 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src>cd com
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com
+
+09/20/2020  01:55 PM    <DIR>          .
+09/20/2020  01:55 PM    <DIR>          ..
+09/20/2020  02:04 PM    <DIR>          felixackuayi
+               0 File(s)              0 bytes
+               3 Dir(s)  181,234,909,184 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com>cd felixackuayi
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>javac Main.java
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+09/20/2020  02:07 PM    <DIR>          .
+09/20/2020  02:07 PM    <DIR>          ..
+09/20/2020  02:07 PM               436 Main.class
+09/20/2020  02:04 PM               254 Main.java
+               2 File(s)            690 bytes
+               2 Dir(s)  181,234,716,672 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd ../../../
+
+C:\Users\fl\IdeaProjects\learning-Java>java Main.java
+Error: Could not find or load main class Main.java
+Caused by: java.lang.ClassNotFoundException: Main.java
+
+C:\Users\fl\IdeaProjects\learning-Java>java Main
+Error: Could not find or load main class Main
+Caused by: java.lang.ClassNotFoundException: Main
+
+C:\Users\fl\IdeaProjects\learning-Java>cd src
+
+C:\Users\fl\IdeaProjects\learning-Java\src>java Main.java
+Error: Could not find or load main class Main.java
+Caused by: java.lang.ClassNotFoundException: Main.java
+
+C:\Users\fl\IdeaProjects\learning-Java\src>java Main
+Error: Could not find or load main class Main
+Caused by: java.lang.ClassNotFoundException: Main
+
+C:\Users\fl\IdeaProjects\learning-Java\src>java com.felixackuayi.Main
+My First JAVA App
+
+C:\Users\fl\IdeaProjects\learning-Java\src>cd com/felixackuayi/
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>rm Main.class
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>del /f Main.class
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+09/20/2020  02:16 PM    <DIR>          .
+09/20/2020  02:16 PM    <DIR>          ..
+09/20/2020  02:04 PM               254 Main.java
+               1 File(s)            254 bytes
+               2 Dir(s)  181,224,923,136 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+09/20/2020  02:16 PM    <DIR>          .
+09/20/2020  02:16 PM    <DIR>          ..
+09/20/2020  02:04 PM               254 Main.java
+               1 File(s)            254 bytes
+               2 Dir(s)  181,224,505,344 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir -
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+File Not Found
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir ./
+Invalid switch - "".
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir ../
+Invalid switch - "".
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir --
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+File Not Found
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir src
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+File Not Found
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir src
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+File Not Found
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+09/20/2020  02:16 PM    <DIR>          .
+09/20/2020  02:16 PM    <DIR>          ..
+09/20/2020  02:04 PM               254 Main.java
+               1 File(s)            254 bytes
+               2 Dir(s)  181,223,874,560 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir com
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+File Not Found
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 808F-9156
+
+ Directory of C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi
+
+09/20/2020  02:16 PM    <DIR>          .
+09/20/2020  02:16 PM    <DIR>          ..
+09/20/2020  02:04 PM               254 Main.java
+               1 File(s)            254 bytes
+               2 Dir(s)  181,223,927,808 bytes free
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>dir ../../
+Invalid switch - "..".
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd ../
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com>cd ../
+
+C:\Users\fl\IdeaProjects\learning-Java\src>java com.felixackuayi.Main
+Error: Could not find or load main class com.felixackuayi.Main
+Caused by: java.lang.ClassNotFoundException: com.felixackuayi.Main
+
+C:\Users\fl\IdeaProjects\learning-Java\src>cd com/felixackuayi
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>javac Main.java
+
+C:\Users\fl\IdeaProjects\learning-Java\src\com\felixackuayi>cd ../../
+
+C:\Users\fl\IdeaProjects\learning-Java\src>java com.felixackuayi.Main
+My First JAVA App
+
+C:\Users\fl\IdeaProjects\learning-Java\src>
+
+
+
+2. We have two type of comment
+-single Line (//)
+-Double Comment (/**/)
+
+3.
